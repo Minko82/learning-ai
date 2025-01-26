@@ -1,2 +1,2 @@
 # ai-tutorial
-Notes on Artificial Intelligence
+Notes on Artificial Intelligence course
