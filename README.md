@@ -2,6 +2,6 @@
 Notes on Artificial Intelligence course
 
 
-DFS
+DFS- Depth First Search
 
 BFS
