@@ -4,4 +4,4 @@ Notes on Artificial Intelligence course
 
 DFS- Depth First Search
 
-BFS
+BFS- Breadth First Search
