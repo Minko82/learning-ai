@@ -1,5 +1,5 @@
 # AI Notes 🤖
-Notes on Artificial Intelligence course
+Notes on Artificial Intelligence course. 
 
 
 DFS- Depth First Search
