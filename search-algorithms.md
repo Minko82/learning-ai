@@ -20,18 +20,15 @@
 
 ---
 
-## 3️⃣ Understanding Time & Space Complexity ⏳💾
+## 3️⃣ Time & Space Complexity ⏳💾
 ### **Time Complexity**
 - Measures how the **running time of an algorithm** increases as the input size grows
-- Expressed using **Big-O notation** (e.g., \(O(n)\), \(O(n^2)\), etc.)
+- A loop running through **n** elements has **O(n) time complexity**
 
 ### **Space Complexity**
 - Measures the **amount of memory** an algorithm uses in relation to input size
-- Also expressed using **Big-O notation**
-
-📌 **Example:**
-- A loop running through **n** elements has **O(n) time complexity**
 - A recursive function storing **n** recursive calls has **O(n) space complexity**
+
 
 <br>
 
@@ -90,6 +87,11 @@ BFS(graph, start_node, end_node):
 - **Time Complexity:** \(O(V + E)\) (where \(V\) is vertices, \(E\) is edges)
 - **Space Complexity:** \(O(V)\) due to the queue and visited set
 
+
+
+### **Why is BFS an optimal algorithm?**
+It visits all possible nodes that are one hop from the source, then checks all that are 2 hop, etc. until it reaches the destination
+
 <br>
 
 ---
@@ -97,7 +99,6 @@ BFS(graph, start_node, end_node):
 ## 6️⃣ Depth-First Search (DFS) 🔍
 ### **Overview**
 - **DFS explores as far as possible along a branch before backtracking**
-- It can be implemented using **recursion** (implicit stack) or **iteration with an explicit stack**
 - Uses a **LIFO (Last In, First Out) stack**
 
 ### **Algorithm (Iterative Version)**
