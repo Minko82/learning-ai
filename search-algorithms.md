@@ -1,8 +1,9 @@
 # 🚀 Chapter 2: Search Algorithms 
 
 ## 1️⃣ Introduction to Search Problems
-- **Search algorithms** are used when an agent needs to find a sequence of actions that **leads to a goal**
-- These algorithms help **navigate problem spaces** efficiently
+- **Search algorithms** →  Used when an agent needs to find a sequence of actions that **leads to a goal**
+  - These algorithms help **navigate problem spaces** efficiently
+- **Complete Search Algorithm** → An algorithm that finds the destination if it exists and notifies the caller if the destination doesn't exist
 
 <br>
 
