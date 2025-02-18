@@ -103,9 +103,50 @@ $$
 
 <br>
 
-**Properties of Environments:**
+📌 **Properties of Environments:**
 
+### **Observability**
+| Property | Meaning |
+|------------|------------------------------------------------|
+| **Fully Observable** | Agent has complete knowledge of the world |
+| **Partially Observable** | Agent only has limited information |
+| **Unobservable** | Agent has no direct perception of the environment |
 
+### **Determinism vs. Stochasticity**
+| Property | Meaning | Example |
+|------------|------------------------------------------------|-----------------------------|
+| **Deterministic** | Next state is fully determined by actions | Calculator |
+| **Stochastic** | Actions have uncertainty | Weather forecast |
+
+### **Discrete vs. Continuous**
+| Property | Meaning |
+|------------|------------------------------------------------|
+| **Discrete** | The agent has finitely many distinct actions |
+| **Continuous** | The agent has infinitely many possible actions |
+
+### **Benign vs. Adversarial**
+| Property | Meaning |
+|------------|------------------------------------------------|
+| **Benign** | There is no opposing agent working against the system |
+| **Adversarial** | The environment includes agents with conflicting objectives |
+
+### **Single Agent vs. Multi-Agent**
+| Property | Meaning |
+|------------|------------------------------------------------|
+| **Single Agent** | Only one agent is operating in the environment |
+| **Multi-Agent** | Multiple agents interact, possibly cooperatively or competitively |
+
+### **Episodic vs. Sequential**
+| Property | Meaning | Example |
+|------------|------------------------------------------------|-----------------------------|
+| **Episodic** | Decisions don’t affect future percepts | Image classification |
+| **Sequential** | Past decisions impact the future | Chess, driving |
+
+### **Static vs. Dynamic**
+| Property | Meaning | Example |
+|------------|------------------------------------------------|-----------------------------|
+| **Static** | The environment doesn’t change while deciding | Sudoku |
+| **Dynamic** | The world keeps changing | Self-driving cars |
 
 <br>
 
@@ -114,12 +155,13 @@ $$
 ## 🌟 Summary
 ✔ **Agents perceive and act on environments.**  
 ✔ **Environments can be:**  
-  - static/dynamic
-  - observable/partially observable
-  - deterministic/stochastic
-  - discrete/continious
-  - benign/adversarial
-  - single agent/multi-agentepisodic/sequential
+  - Fully observable/ partially observable/ Unobservable
+  - Deterministic/ Stochastic
+  - Discrete/ Continious
+  - Benign/ Adversarial
+  - Single Agent/ Multi-Agent
+  - Episodic/ Sequential
+  - Static/ Dynamic
     
 ✔ **A rational agent selects actions that maximize performance based on percepts.**  
 
