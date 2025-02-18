@@ -59,7 +59,7 @@ Search algorithms are categorized into two types:
 
 ## 5️⃣ Breadth-First Search (BFS) 🔍
 ### **Overview**
-- **BFS explores all nodes at the present depth level before moving on to nodes at the next depth level**
+- **BFS explores all nodes at the present row/depth level before moving on to nodes at the next row**
 - It guarantees the **shortest path** in an **unweighted** graph
 - Uses a **FIFO (First In, First Out) queue**
 
@@ -83,13 +83,13 @@ BFS(graph, start_node, end_node):
         explored.add(current_node)
 ```
 
-### **Time & Space Complexity**
+#### **Time & Space Complexity**
 - **Time Complexity:** \(O(V + E)\) (where \(V\) is vertices, \(E\) is edges)
 - **Space Complexity:** \(O(V)\) due to the queue and visited set
 
 
 
-### **Why is BFS an optimal algorithm?**
+#### **Why is BFS an optimal algorithm?**
 It visits all possible nodes that are one hop from the source, then checks all that are 2 hop, etc. until it reaches the destination
 
 <br>
@@ -126,7 +126,7 @@ def dfs_recursive(graph, s, visited=set()):
             dfs_recursive(graph, neighbor, visited)
 ```
 
-### **Time & Space Complexity**
+#### **Time & Space Complexity**
 - **Time Complexity:** \(O(V + E)\)  
 - **Space Complexity:**
   - **Recursive:** \(O(V)\) (due to recursion stack)
