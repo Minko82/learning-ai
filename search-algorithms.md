@@ -1,4 +1,4 @@
-# 📌 Chapter 2: Search Algorithms 🚀
+# 🚀 Chapter 2: Search Algorithms 
 
 ## 1️⃣ Introduction to Search Problems
 - **Search algorithms** are used when an agent needs to find a sequence of actions that **leads to a goal**
