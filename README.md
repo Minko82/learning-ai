@@ -1,4 +1,4 @@
-# 🤖 **AI Tutorial**
+# 🤖 **Learning AI**
 
 ## 📌 **Project Description**
 
