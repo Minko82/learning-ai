@@ -1,12 +1,12 @@
+# 🚀 BFS and DFS
 
-
-## 5️⃣ Breadth-First Search (BFS) 🔍
+## 1️⃣ Breadth-First Search (BFS) 🔍
 ### **Overview**
 - **BFS explores all nodes at the present row/depth level before moving on to nodes at the next row**
 - It guarantees the **shortest path** in an **unweighted** graph
 - Uses a **FIFO (First In, First Out) queue**
 
-### **Algorithm (Pseudocode)**
+#### **Algorithm (Pseudocode)**
 ```python
 BFS(graph, start_node, end_node):
     frontier = new Queue()
@@ -39,12 +39,12 @@ It visits all possible nodes that are one hop from the source, then checks all t
 
 ---
 
-## 6️⃣ Depth-First Search (DFS) 🔍
+## 2️⃣ Depth-First Search (DFS) 🔍
 ### **Overview**
 - **DFS explores as far as possible along a branch before backtracking**
 - Uses a **LIFO (Last In, First Out) stack**
 
-### **Algorithm (Iterative Version)**
+#### **Algorithm (Iterative Version)**
 ```python
 def dfs_iterative(graph, start):
     stack = [start]
@@ -59,7 +59,7 @@ def dfs_iterative(graph, start):
                     stack.append(neighbor)
 ```
 
-### **Algorithm (Recursive Version)**
+#### **Algorithm (Recursive Version)**
 ```python
 def dfs_recursive(graph, s, visited=set()):
     print(s, end=' ')
@@ -79,7 +79,7 @@ def dfs_recursive(graph, s, visited=set()):
 
 ---
 
-## 7️⃣ BFS vs. DFS Comparison 
+## 3️⃣ BFS vs. DFS Comparison 
 
 | Feature | BFS | DFS |
 |---------|----|----|
