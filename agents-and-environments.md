@@ -1,4 +1,4 @@
-# 📜 Chapter 1: Intelligent Agents & Environments
+# 📜 Intelligent Agents & Environments
 
 ## 1️⃣ What is an **Agent**?
 **Agent** → Any entity that **perceives its environment** and **acts upon it** to achieve a goal.
