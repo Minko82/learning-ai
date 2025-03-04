@@ -29,35 +29,45 @@ This repository is built upon concepts from renowned AI textbooks, online course
 - **MIT OpenCourseWare: Introduction to AI**
 - Various academic papers on heuristic search and optimization
 
-edtronic-hand-tracker | Size of shared memory: 80Press Enter to exit program.
-medtronic-hand-tracker | LeapC PollConnection call was eLeapRS_NotConnected.
 medtronic-hand-tracker | Size of shared memory: 80Press Enter to exit program.
 medtronic-hand-tracker | Size of shared memory: 80Press Enter to exit program.
 medtronic-hand-tracker | LeapC PollConnection call was eLeapRS_NotConnected.
 medtronic-hand-tracker | Size of shared memory: 80Press Enter to exit program.
 medtronic-hand-tracker | LeapC PollConnection call was eLeapRS_NotConnected.
 medtronic-hand-tracker | Size of shared memory: 80Press Enter to exit program.
-medtronic-hand-tracker | LeapC PollConnection call was eLeapRS_NotConnected.
+medtronic-hand-tracker | LeapC PollConnection call was eLeapRS_Timeout.
 medtronic-hand-tracker | Size of shared memory: 80Press Enter to exit program.
 medtronic-hand-tracker | LeapC PollConnection call was eLeapRS_NotConnected.
 medtronic-hand-tracker | Size of shared memory: 80Press Enter to exit program.
 medtronic-hand-tracker | LeapC PollConnection call was eLeapRS_NotConnected.
-medtronic-hand-tracker | Size of shared memory: 80Press Enter to exit program.
 medtronic-hand-tracker exited with code 0
 medtronic-hand-tracker | Size of shared memory: 80Press Enter to exit program.
-medtronic-hand-tracker | LeapC PollConnection call was eLeapRS_NotConnected.
-medtronic-hand-tracker | Size of shared memory: 80Press Enter to exit program.
 medtronic-hand-tracker | Size of shared memory: 80Press Enter to exit program.
 medtronic-hand-tracker | LeapC PollConnection call was eLeapRS_NotConnected.
 medtronic-hand-tracker | Size of shared memory: 80Press Enter to exit program.
 medtronic-hand-tracker | LeapC PollConnection call was eLeapRS_NotConnected.
 medtronic-hand-tracker | Size of shared memory: 80Press Enter to exit program.
-medtronic-hand-tracker | LeapC PollConnection call was eLeapRS_NotConnected.
+medtronic-hand-tracker | LeapC PollConnection call was eLeapRS_Timeout.
 medtronic-hand-tracker | Size of shared memory: 80Press Enter to exit program.
 medtronic-hand-tracker | LeapC PollConnection call was eLeapRS_NotConnected.
 medtronic-hand-tracker | Size of shared memory: 80Press Enter to exit program.
 medtronic-hand-tracker | LeapC PollConnection call was eLeapRS_NotConnected.
 medtronic-hand-tracker | Size of shared memory: 80Press Enter to exit program.
+medtronic-hand-tracker | LeapC PollConnection call was eLeapRS_NotConnected.
+medtronic-hand-tracker exited with code 0
+medtronic-hand-tracker | Size of shared memory: 80Press Enter to exit program.
+medtronic-hand-tracker | Size of shared memory: 80Press Enter to exit program.
+medtronic-hand-tracker | LeapC PollConnection call was eLeapRS_NotConnected.
+medtronic-hand-tracker | Size of shared memory: 80Press Enter to exit program.
+medtronic-hand-tracker | LeapC PollConnection call was eLeapRS_NotConnected.
+medtronic-hand-tracker | Size of shared memory: 80Press Enter to exit program.
+medtronic-hand-tracker | LeapC PollConnection call was eLeapRS_Timeout.
+medtronic-hand-tracker | Size of shared memory: 80Press Enter to exit program.
+medtronic-hand-tracker | LeapC PollConnection call was eLeapRS_NotConnected.
+medtronic-hand-tracker | Size of shared memory: 80Press Enter to exit program.
+medtronic-hand-tracker | LeapC PollConnection call was eLeapRS_NotConnected.
+medtronic-hand-tracker | Size of shared memory: 80Press Enter to exit program.
+medtronic-hand-tracker | LeapC PollConnection call was eLeapRS_NotConnected.
 medtronic-hand-tracker | Size of shared memory: 80Press Enter to exit program.
 medtronic-hand-tracker | LeapC PollConnection call was eLeapRS_NotConnected.
 
