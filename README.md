@@ -29,11 +29,5 @@ This repository is built upon concepts from renowned AI textbooks, online course
 - **MIT OpenCourseWare: Introduction to AI**
 - Various academic papers on heuristic search and optimization
 
-- 
-medtronic-robot@medtronic-robot-Precision-7680:~/medtronic-capstone/medtronic-website$ docker-compose -f docker-compose-gpu.yml downERROR: Invalid interpolation format for "command" option in service "hand-tracker": "sh -c "service udev restart && sleep 2 && $(which Leapd) & sleep 2 && python3 /app/hand_tracker.py"
-"
-medtronic-robot@medtronic-robot-Precision-7680:~/medtronic-capstone/medtronic-website$ docker-compose -f docker-compose-gpu.yml down
-ERROR: Invalid interpolation format for "command" option in service "hand-tracker": "sh -c "service udev restart && sleep 2 && $(which Leapd) & sleep 2 && python3 /app/hand_tracker.py"
-"
-medtronic-robot@medtronic-robot-Precision-7680:~/medtronic-capstone/medtronic-website$ 
+  
 
