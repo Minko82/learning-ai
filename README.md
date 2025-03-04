@@ -29,20 +29,21 @@ This repository is built upon concepts from renowned AI textbooks, online course
 - **MIT OpenCourseWare: Introduction to AI**
 - Various academic papers on heuristic search and optimization
 
-medtronic-hand-tracker | Traceback (most recent call last):
-medtronic-hand-tracker |   File "/app/hand_tracker.py", line 2, in <module>
-medtronic-hand-tracker |     import cv2
-medtronic-hand-tracker |   File "/usr/local/lib/python3.10/dist-packages/cv2/__init__.py", line 181, in <module>
-medtronic-hand-tracker |     bootstrap()
-medtronic-hand-tracker |   File "/usr/local/lib/python3.10/dist-packages/cv2/__init__.py", line 153, in bootstrap
-medtronic-hand-tracker |     native_module = importlib.import_module("cv2")
-medtronic-hand-tracker |   File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
-medtronic-hand-tracker |     return _bootstrap._gcd_import(name[level:], package, level)
-medtronic-hand-tracker | ImportError: libGL.so.1: cannot open shared object file: No such file or directory
+medtronic-hand-tracker exited with code 0
+medtronic-hand-tracker | INFO:root:✅ Starting Ultraleap Hand Tracking Service...
+medtronic-hand-tracker | ERROR:root:❌ Failed to start Ultraleap service: [Errno 2] No such file or directory: 'ultraleap-hand-tracking-service'
+medtronic-hand-tracker | [ WARN:0@0.009] global cap_v4l.cpp:913 open VIDEOIO(V4L2:/dev/video0): can't open camera by index
+medtronic-hand-tracker | [ERROR:0@0.010] global obsensor_uvc_stream_channel.cpp:158 getStreamChannelGroup Camera index out of range
+medtronic-hand-tracker | [ WARN:0@0.010] global cap_v4l.cpp:913 open VIDEOIO(V4L2:/dev/video1): can't open camera by index
+medtronic-hand-tracker | [ERROR:0@0.010] global obsensor_uvc_stream_channel.cpp:158 getStreamChannelGroup Camera index out of range
+medtronic-hand-tracker | INFO:root:✅ Hand tracking camera detected at index 2
+medtronic-hand-tracker exited with code 0
+medtronic-hand-tracker | INFO:root:✅ Starting Ultraleap Hand Tracking Service...
+medtronic-hand-tracker | ERROR:root:❌ Failed to start Ultraleap service: [Errno 2] No such file or directory: 'ultraleap-hand-tracking-service'
+medtronic-hand-tracker | [ WARN:0@0.009] global cap_v4l.cpp:913 open VIDEOIO(V4L2:/dev/video0): can't open camera by index
+medtronic-hand-tracker | [ERROR:0@0.010] global obsensor_uvc_stream_channel.cpp:158 getStreamChannelGroup Camera index out of range
+medtronic-hand-tracker | [ WARN:0@0.010] global cap_v4l.cpp:913 open VIDEOIO(V4L2:/dev/video1): can't open camera by index
+medtronic-hand-tracker | [ERROR:0@0.010] global obsensor_uvc_stream_channel.cpp:158 getStreamChannelGroup Camera index out of range
+medtronic-hand-tracker | INFO:root:✅ Hand tracking camera detected at index 2
 
-
-- The following packages have unmet dependencies:
- openxr-layer-ultraleap : Depends: libc6 (>= 2.34) but 2.31-0ubuntu9.17 is to be installed
-                          Depends: libstdc++6 (>= 11) but 10.5.0-1ubuntu1~20.04 is to be installed
-                          Recommends: ultraleap-hand-tracking-control-panel but it is not going to be installed
 
