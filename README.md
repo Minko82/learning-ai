@@ -29,21 +29,8 @@ This repository is built upon concepts from renowned AI textbooks, online course
 - **MIT OpenCourseWare: Introduction to AI**
 - Various academic papers on heuristic search and optimization
 
-medtronic-hand-tracker exited with code 0
-medtronic-hand-tracker | INFO:root:✅ Starting Ultraleap Hand Tracking Service...
-medtronic-hand-tracker | ERROR:root:❌ Failed to start Ultraleap service: [Errno 2] No such file or directory: 'ultraleap-hand-tracking-service'
-medtronic-hand-tracker | [ WARN:0@0.009] global cap_v4l.cpp:913 open VIDEOIO(V4L2:/dev/video0): can't open camera by index
-medtronic-hand-tracker | [ERROR:0@0.010] global obsensor_uvc_stream_channel.cpp:158 getStreamChannelGroup Camera index out of range
-medtronic-hand-tracker | [ WARN:0@0.010] global cap_v4l.cpp:913 open VIDEOIO(V4L2:/dev/video1): can't open camera by index
-medtronic-hand-tracker | [ERROR:0@0.010] global obsensor_uvc_stream_channel.cpp:158 getStreamChannelGroup Camera index out of range
-medtronic-hand-tracker | INFO:root:✅ Hand tracking camera detected at index 2
-medtronic-hand-tracker exited with code 0
-medtronic-hand-tracker | INFO:root:✅ Starting Ultraleap Hand Tracking Service...
-medtronic-hand-tracker | ERROR:root:❌ Failed to start Ultraleap service: [Errno 2] No such file or directory: 'ultraleap-hand-tracking-service'
-medtronic-hand-tracker | [ WARN:0@0.009] global cap_v4l.cpp:913 open VIDEOIO(V4L2:/dev/video0): can't open camera by index
-medtronic-hand-tracker | [ERROR:0@0.010] global obsensor_uvc_stream_channel.cpp:158 getStreamChannelGroup Camera index out of range
-medtronic-hand-tracker | [ WARN:0@0.010] global cap_v4l.cpp:913 open VIDEOIO(V4L2:/dev/video1): can't open camera by index
-medtronic-hand-tracker | [ERROR:0@0.010] global obsensor_uvc_stream_channel.cpp:158 getStreamChannelGroup Camera index out of range
-medtronic-hand-tracker | INFO:root:✅ Hand tracking camera detected at index 2
+ERROR: for medtronic-hand-tracker  Cannot start service hand-tracker: failed to create task for container: failed to create shim task: OCI runtime create failed: runc create failed: unable to start container process: exec: "/usr/lib/ultraleap-hand-tracking-service/leapd": stat /usr/lib/ultraleap-hand-tracking-service/leapd: no such file or directory: unknown
 
+ERROR: for hand-tracker  Cannot start service hand-tracker: failed to create task for container: failed to create shim task: OCI runtime create failed: runc create failed: unable to start container process: exec: "/usr/lib/ultraleap-hand-tracking-service/leapd": stat /usr/lib/ultraleap-hand-tracking-service/leapd: no such file or directory: unknown
+ERROR: Encountered errors while bringing up the project.
 
