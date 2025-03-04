@@ -29,14 +29,20 @@ This repository is built upon concepts from renowned AI textbooks, online course
 - **MIT OpenCourseWare: Introduction to AI**
 - Various academic papers on heuristic search and optimization
 
-  
-medtronic-hand-tracker exited with code 0
-medtronic-hand-tracker |    ...done.
-medtronic-hand-tracker | /bin/sh: 3: Leapd: not found
-medtronic-hand-tracker | ERROR:root:❌ Failed to start Ultraleap service: [Errno 2] No such file or directory: '/usr/lib/ultraleap-hand-tracking/Leapd'
-medtronic-hand-tracker | [ WARN:0@0.008] global cap_v4l.cpp:913 open VIDEOIO(V4L2:/dev/video0): can't open camera by index
-medtronic-hand-tracker | [ERROR:0@0.008] global obsensor_uvc_stream_channel.cpp:158 getStreamChannelGroup Camera index out of range
-medtronic-hand-tracker | [ WARN:0@0.008] global cap_v4l.cpp:913 open VIDEOIO(V4L2:/dev/video1): can't open camera by index
-medtronic-hand-tracker | [ERROR:0@0.008] global obsensor_uvc_stream_channel.cpp:158 getStreamChannelGroup Camera index out of range
-medtronic-hand-tracker | INFO:root:✅ Hand tracking camera detected at index 2
+
+le: No such file or directory
+medtronic-hand-tracker | /app/handtracking/DataCollector: error while loading shared libraries: libLeapC.so.5: cannot open shared object file: No such file or directory
+medtronic-hand-tracker | /app/handtracking/DataCollector: error while loading shared libraries: libLeapC.so.5: cannot open shared object file: No such file or directory
+medtronic-hand-tracker | /app/handtracking/DataCollector: error while loading shared libraries: libLeapC.so.5: cannot open shared object file: No such file or directory
+medtronic-hand-tracker | /app/handtracking/DataCollector: error while loading shared libraries: libLeapC.so.5: cannot open shared object file: No such file or directory
+medtronic-hand-tracker | /app/handtracking/DataCollector: error while loading shared libraries: libLeapC.so.5: cannot open shared object file: No such file or directory
+medtronic-hand-tracker exited with code 127
+medtronic-hand-tracker | /app/handtracking/DataCollector: error while loading shared libraries: libLeapC.so.5: cannot open shared object file: No such file or directory
+medtronic-hand-tracker | /app/handtracking/DataCollector: error while loading shared libraries: libLeapC.so.5: cannot open shared object file: No such file or directory
+medtronic-hand-tracker | /app/handtracking/DataCollector: error while loading shared libraries: libLeapC.so.5: cannot open shared object file: No such file or directory
+medtronic-hand-tracker | /app/handtracking/DataCollector: error while loading shared libraries: libLeapC.so.5: cannot open shared object file: No such file or directory
+medtronic-hand-tracker | /app/handtracking/DataCollector: error while loading shared libraries: libLeapC.so.5: cannot open shared object file: No such file or directory
+medtronic-hand-tracker | /app/handtracking/DataCollector: error while loading shared libraries: libLeapC.so.5: cannot open shared object file: No such file or directory
+medtronic-hand-tracker | /app/handtracking/DataCollector: error while loading shared libraries: libLeapC.so.5: cannot open shared object file: No such file or directory
+medtronic-hand-tracker | /app/handtracking/DataCollector: error while loading shared libraries: libLeapC.so.5: cannot open shared object file: No such file or directory
 
