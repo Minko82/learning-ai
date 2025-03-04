@@ -28,3 +28,9 @@ This repository is built upon concepts from renowned AI textbooks, online course
 
 - **MIT OpenCourseWare: Introduction to AI**
 - Various academic papers on heuristic search and optimization
+
+- The following packages have unmet dependencies:
+ openxr-layer-ultraleap : Depends: libc6 (>= 2.34) but 2.31-0ubuntu9.17 is to be installed
+                          Depends: libstdc++6 (>= 11) but 10.5.0-1ubuntu1~20.04 is to be installed
+                          Recommends: ultraleap-hand-tracking-control-panel but it is not going to be installed
+
