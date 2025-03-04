@@ -29,46 +29,18 @@ This repository is built upon concepts from renowned AI textbooks, online course
 - **MIT OpenCourseWare: Introduction to AI**
 - Various academic papers on heuristic search and optimization
 
-medtronic-hand-tracker | Size of shared memory: 80Press Enter to exit program.
-medtronic-hand-tracker | Size of shared memory: 80Press Enter to exit program.
-medtronic-hand-tracker | LeapC PollConnection call was eLeapRS_NotConnected.
-medtronic-hand-tracker | Size of shared memory: 80Press Enter to exit program.
-medtronic-hand-tracker | LeapC PollConnection call was eLeapRS_NotConnected.
-medtronic-hand-tracker | Size of shared memory: 80Press Enter to exit program.
-medtronic-hand-tracker | LeapC PollConnection call was eLeapRS_Timeout.
-medtronic-hand-tracker | Size of shared memory: 80Press Enter to exit program.
-medtronic-hand-tracker | LeapC PollConnection call was eLeapRS_NotConnected.
-medtronic-hand-tracker | Size of shared memory: 80Press Enter to exit program.
-medtronic-hand-tracker | LeapC PollConnection call was eLeapRS_NotConnected.
-medtronic-hand-tracker exited with code 0
-medtronic-hand-tracker | Size of shared memory: 80Press Enter to exit program.
-medtronic-hand-tracker | Size of shared memory: 80Press Enter to exit program.
-medtronic-hand-tracker | LeapC PollConnection call was eLeapRS_NotConnected.
-medtronic-hand-tracker | Size of shared memory: 80Press Enter to exit program.
-medtronic-hand-tracker | LeapC PollConnection call was eLeapRS_NotConnected.
-medtronic-hand-tracker | Size of shared memory: 80Press Enter to exit program.
-medtronic-hand-tracker | LeapC PollConnection call was eLeapRS_Timeout.
-medtronic-hand-tracker | Size of shared memory: 80Press Enter to exit program.
-medtronic-hand-tracker | LeapC PollConnection call was eLeapRS_NotConnected.
-medtronic-hand-tracker | Size of shared memory: 80Press Enter to exit program.
-medtronic-hand-tracker | LeapC PollConnection call was eLeapRS_NotConnected.
-medtronic-hand-tracker | Size of shared memory: 80Press Enter to exit program.
-medtronic-hand-tracker | LeapC PollConnection call was eLeapRS_NotConnected.
-medtronic-hand-tracker exited with code 0
-medtronic-hand-tracker | Size of shared memory: 80Press Enter to exit program.
-medtronic-hand-tracker | Size of shared memory: 80Press Enter to exit program.
-medtronic-hand-tracker | LeapC PollConnection call was eLeapRS_NotConnected.
-medtronic-hand-tracker | Size of shared memory: 80Press Enter to exit program.
-medtronic-hand-tracker | LeapC PollConnection call was eLeapRS_NotConnected.
-medtronic-hand-tracker | Size of shared memory: 80Press Enter to exit program.
-medtronic-hand-tracker | LeapC PollConnection call was eLeapRS_Timeout.
-medtronic-hand-tracker | Size of shared memory: 80Press Enter to exit program.
-medtronic-hand-tracker | LeapC PollConnection call was eLeapRS_NotConnected.
-medtronic-hand-tracker | Size of shared memory: 80Press Enter to exit program.
-medtronic-hand-tracker | LeapC PollConnection call was eLeapRS_NotConnected.
-medtronic-hand-tracker | Size of shared memory: 80Press Enter to exit program.
-medtronic-hand-tracker | LeapC PollConnection call was eLeapRS_NotConnected.
-medtronic-hand-tracker | Size of shared memory: 80Press Enter to exit program.
-medtronic-hand-tracker | LeapC PollConnection call was eLeapRS_NotConnected.
+
+medtronic-backend exited with code 1
+medtronic-backend | Traceback (most recent call last):
+medtronic-backend |   File "/app/app.py", line 6, in <module>
+medtronic-backend |     import cv2
+medtronic-backend |   File "/usr/local/lib/python3.8/dist-packages/cv2/__init__.py", line 181, in <module>
+medtronic-backend |     bootstrap()
+medtronic-backend |   File "/usr/local/lib/python3.8/dist-packages/cv2/__init__.py", line 153, in bootstrap
+medtronic-backend |     native_module = importlib.import_module("cv2")
+medtronic-backend |   File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+medtronic-backend |     return _bootstrap._gcd_import(name[level:], package, level)
+medtronic-backend | ImportError: libGL.so.1: cannot open shared object file: No such file or directory
+medtronic-backend exited with code 1
 
 
