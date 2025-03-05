@@ -31,8 +31,7 @@ This repository is built upon concepts from renowned AI textbooks, online course
 
 
 
-
-ncaught runtime errors:
+Uncaught runtime errors:
 ERROR
 handData.right_palm is undefined
 Dashboard@http://localhost:3000/static/js/bundle.js:84552:41
