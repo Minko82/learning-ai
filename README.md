@@ -31,19 +31,26 @@ This repository is built upon concepts from renowned AI textbooks, online course
 
 
 
-Uncaught runtime errors:
-ERROR
-handData.right_palm is undefined
-Dashboard@http://localhost:3000/static/js/bundle.js:84552:41
-react-stack-bottom-frame@http://localhost:3000/static/js/bundle.js:36796:18
-renderWithHooks@http://localhost:3000/static/js/bundle.js:28113:38
-updateFunctionComponent@http://localhost:3000/static/js/bundle.js:29382:17
-beginWork@http://localhost:3000/static/js/bundle.js:30000:16
-runWithFiberInDEV@http://localhost:3000/static/js/bundle.js:25341:14
-performUnitOfWork@http://localhost:3000/static/js/bundle.js:32585:93
-workLoopSync@http://localhost:3000/static/js/bundle.js:32479:55
-renderRootSync@http://localhost:3000/static/js/bundle.js:32463:7
-performWorkOnRoot@http://localhost:3000/static/js/bundle.js:32224:42
-performWorkOnRootViaSchedulerTask@http://localhost:3000/static/js/bundle.js:33026:22
-performWorkUntilDeadline@http://localhost:3000/static/js/bundle.js:79213:54
+root@bc92ba88832c:/app/front-end# medtronic-robot@medtronic-robot-Precision-7680:~/medtronic-capstone/medtronic-website$ curl -v http://localhost:9001/api/hand-tracking
+* Host localhost:9001 was resolved.
+* IPv6: ::1
+* IPv4: 127.0.0.1
+*   Trying [::1]:9001...
+* Connected to localhost (::1) port 9001
+> GET /api/hand-tracking HTTP/1.1
+> Host: localhost:9001
+> User-Agent: curl/8.5.0
+> Accept: */*
+> 
+< HTTP/1.1 404 NOT FOUND
+< Server: Werkzeug/3.1.3 Python/3.10.12
+< Date: Wed, 05 Mar 2025 02:43:09 GMT
+< Content-Type: application/json
+< Content-Length: 35
+< Access-Control-Allow-Origin: *
+< Connection: close
+< 
+{"error":"No hand data available"}
+* Closing connection
+
 
