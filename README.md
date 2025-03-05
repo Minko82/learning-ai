@@ -31,26 +31,34 @@ This repository is built upon concepts from renowned AI textbooks, online course
 
 
 
-root@bc92ba88832c:/app/front-end# medtronic-robot@medtronic-robot-Precision-7680:~/medtronic-capstone/medtronic-website$ curl -v http://localhost:9001/api/hand-tracking
-* Host localhost:9001 was resolved.
-* IPv6: ::1
-* IPv4: 127.0.0.1
-*   Trying [::1]:9001...
-* Connected to localhost (::1) port 9001
-> GET /api/hand-tracking HTTP/1.1
-> Host: localhost:9001
-> User-Agent: curl/8.5.0
-> Accept: */*
-> 
-< HTTP/1.1 404 NOT FOUND
-< Server: Werkzeug/3.1.3 Python/3.10.12
-< Date: Wed, 05 Mar 2025 02:43:09 GMT
-< Content-Type: application/json
-< Content-Length: 35
-< Access-Control-Allow-Origin: *
-< Connection: close
-< 
-{"error":"No hand data available"}
-* Closing connection
+medtronic-robot@medtronic-robot-Precision-7680:~/medtronic-capstone/medtronic-website$ sudo dmesg | grep -i leap
+[sudo] password for medtronic-robot: 
+[15960.201724] usb 2-1: Manufacturer: Ultraleap
+[15961.082871] usb 2-1: usbfs: interface 0 claimed by uvcvideo while 'leapd' sets config #1
+[19084.540996] usb 2-1: Manufacturer: Ultraleap
+[19085.031850] usb 2-1: usbfs: interface 0 claimed by uvcvideo while 'leapd' sets config #1
+[20368.750013] usb 2-1: Manufacturer: Ultraleap
+[20368.820634] usb 2-1: usbfs: interface 0 claimed by uvcvideo while 'leapd' sets config #1
+[51068.658345] usb 2-1: Manufacturer: Ultraleap
+[51069.211094] usb 2-1: usbfs: interface 0 claimed by uvcvideo while 'leapd' sets config #1
+[64124.096296] usb 2-1: Manufacturer: Ultraleap
+[64124.885834] usb 2-1: usbfs: interface 0 claimed by uvcvideo while 'leapd' sets config #1
+[81001.792532] usb 2-1: Manufacturer: Ultraleap
+[81002.338237] usb 2-1: usbfs: interface 0 claimed by uvcvideo while 'leapd' sets config #1
+medtronic-robot@medtronic-robot-Precision-7680:~/medtronic-capstone/medtronic-website$ ls /sys/bus/usb/drivers/uvcvideo/
+1-3:1.0  1-3:1.1  1-3:1.2  1-3:1.3  bind  module  new_id  remove_id  uevent  unbind
+medtronic-robot@medtronic-robot-Precision-7680:~/medtronic-capstone/medtronic-website$ sudo dmesg | grep -i leap
+[15960.201724] usb 2-1: Manufacturer: Ultraleap
+[15961.082871] usb 2-1: usbfs: interface 0 claimed by uvcvideo while 'leapd' sets config #1
+[19084.540996] usb 2-1: Manufacturer: Ultraleap
+[19085.031850] usb 2-1: usbfs: interface 0 claimed by uvcvideo while 'leapd' sets config #1
+[20368.750013] usb 2-1: Manufacturer: Ultraleap
+[20368.820634] usb 2-1: usbfs: interface 0 claimed by uvcvideo while 'leapd' sets config #1
+[51068.658345] usb 2-1: Manufacturer: Ultraleap
+[51069.211094] usb 2-1: usbfs: interface 0 claimed by uvcvideo while 'leapd' sets config #1
+[64124.096296] usb 2-1: Manufacturer: Ultraleap
+[64124.885834] usb 2-1: usbfs: interface 0 claimed by uvcvideo while 'leapd' sets config #1
+[81001.792532] usb 2-1: Manufacturer: Ultraleap
+[81002.338237] usb 2-1: usbfs: interface 0 claimed by uvcvideo while 'leapd' sets config #1
 
 
