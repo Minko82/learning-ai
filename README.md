@@ -30,13 +30,6 @@ This repository is built upon concepts from renowned AI textbooks, online course
 - Various academic papers on heuristic search and optimization
 
 
-Step 5/11 : RUN wget https://assets.ultraleap.com/download/ultraleap-hand-tracking-2.3.0-linux.zip -O ultraleap.zip &&     unzip ultraleap.zip -d /opt/ultraleap &&     rm ultraleap.zip
- ---> Running in e962ba1eefb8
---2025-03-05 03:18:27--  https://assets.ultraleap.com/download/ultraleap-hand-tracking-2.3.0-linux.zip
-Resolving assets.ultraleap.com (assets.ultraleap.com)... failed: Name or service not known.
-wget: unable to resolve host address 'assets.ultraleap.com'
-The command '/bin/sh -c wget https://assets.ultraleap.com/download/ultraleap-hand-tracking-2.3.0-linux.zip -O ultraleap.zip &&     unzip ultraleap.zip -d /opt/ultraleap &&     rm ultraleap.zip' returned a non-zero code: 4
-ERROR: Service 'hand-tracker' failed to build : Build failed
-medtronic-robot@medtronic-robot-Precision-7680:~/medtronic-capstone/medtronic-website$ 
+wget https://assets.ultraleap.com/download/ultraleap-hand-tracking-2.3.0-linux.zip -O ultraleap.zip
 
 
