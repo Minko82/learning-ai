@@ -30,17 +30,27 @@ This repository is built upon concepts from renowned AI textbooks, online course
 - Various academic papers on heuristic search and optimization
 
 
-medtronic-backend exited with code 1
-medtronic-backend | Traceback (most recent call last):
-medtronic-backend |   File "/app/app.py", line 6, in <module>
-medtronic-backend |     import cv2
-medtronic-backend |   File "/usr/local/lib/python3.8/dist-packages/cv2/__init__.py", line 181, in <module>
-medtronic-backend |     bootstrap()
-medtronic-backend |   File "/usr/local/lib/python3.8/dist-packages/cv2/__init__.py", line 153, in bootstrap
-medtronic-backend |     native_module = importlib.import_module("cv2")
-medtronic-backend |   File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
-medtronic-backend |     return _bootstrap._gcd_import(name[level:], package, level)
-medtronic-backend | ImportError: libGL.so.1: cannot open shared object file: No such file or directory
-medtronic-backend exited with code 1
-
-
+medtronic-robot@medtronic-robot-Precision-7680:~/medtronic-capstone/medtronic-website$ curl -v http://localhost:8000/cpu
+* Host localhost:8000 was resolved.
+* IPv6: ::1
+* IPv4: 127.0.0.1
+*   Trying [::1]:8000...
+* Connected to localhost (::1) port 8000
+> GET /cpu HTTP/1.1
+> Host: localhost:8000
+> User-Agent: curl/8.5.0
+> Accept: */*
+> 
+< HTTP/1.1 404 NOT FOUND
+< Server: gunicorn
+< Date: Wed, 05 Mar 2025 01:57:42 GMT
+< Connection: keep-alive
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 207
+< Access-Control-Allow-Origin: *
+< 
+<!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL was not found on the server. If you ente
