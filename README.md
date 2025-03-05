@@ -31,34 +31,20 @@ This repository is built upon concepts from renowned AI textbooks, online course
 
 
 
-medtronic-robot@medtronic-robot-Precision-7680:~/medtronic-capstone/medtronic-website$ sudo dmesg | grep -i leap
-[sudo] password for medtronic-robot: 
-[15960.201724] usb 2-1: Manufacturer: Ultraleap
-[15961.082871] usb 2-1: usbfs: interface 0 claimed by uvcvideo while 'leapd' sets config #1
-[19084.540996] usb 2-1: Manufacturer: Ultraleap
-[19085.031850] usb 2-1: usbfs: interface 0 claimed by uvcvideo while 'leapd' sets config #1
-[20368.750013] usb 2-1: Manufacturer: Ultraleap
-[20368.820634] usb 2-1: usbfs: interface 0 claimed by uvcvideo while 'leapd' sets config #1
-[51068.658345] usb 2-1: Manufacturer: Ultraleap
-[51069.211094] usb 2-1: usbfs: interface 0 claimed by uvcvideo while 'leapd' sets config #1
-[64124.096296] usb 2-1: Manufacturer: Ultraleap
-[64124.885834] usb 2-1: usbfs: interface 0 claimed by uvcvideo while 'leapd' sets config #1
-[81001.792532] usb 2-1: Manufacturer: Ultraleap
-[81002.338237] usb 2-1: usbfs: interface 0 claimed by uvcvideo while 'leapd' sets config #1
-medtronic-robot@medtronic-robot-Precision-7680:~/medtronic-capstone/medtronic-website$ ls /sys/bus/usb/drivers/uvcvideo/
-1-3:1.0  1-3:1.1  1-3:1.2  1-3:1.3  bind  module  new_id  remove_id  uevent  unbind
-medtronic-robot@medtronic-robot-Precision-7680:~/medtronic-capstone/medtronic-website$ sudo dmesg | grep -i leap
-[15960.201724] usb 2-1: Manufacturer: Ultraleap
-[15961.082871] usb 2-1: usbfs: interface 0 claimed by uvcvideo while 'leapd' sets config #1
-[19084.540996] usb 2-1: Manufacturer: Ultraleap
-[19085.031850] usb 2-1: usbfs: interface 0 claimed by uvcvideo while 'leapd' sets config #1
-[20368.750013] usb 2-1: Manufacturer: Ultraleap
-[20368.820634] usb 2-1: usbfs: interface 0 claimed by uvcvideo while 'leapd' sets config #1
-[51068.658345] usb 2-1: Manufacturer: Ultraleap
-[51069.211094] usb 2-1: usbfs: interface 0 claimed by uvcvideo while 'leapd' sets config #1
-[64124.096296] usb 2-1: Manufacturer: Ultraleap
-[64124.885834] usb 2-1: usbfs: interface 0 claimed by uvcvideo while 'leapd' sets config #1
-[81001.792532] usb 2-1: Manufacturer: Ultraleap
-[81002.338237] usb 2-1: usbfs: interface 0 claimed by uvcvideo while 'leapd' sets config #1
+Uncaught runtime errors:
+ERROR
+handData.right_palm is undefined
+Dashboard@http://localhost:3000/static/js/bundle.js:84552:41
+react-stack-bottom-frame@http://localhost:3000/static/js/bundle.js:36796:18
+renderWithHooks@http://localhost:3000/static/js/bundle.js:28113:38
+updateFunctionComponent@http://localhost:3000/static/js/bundle.js:29382:17
+beginWork@http://localhost:3000/static/js/bundle.js:30000:16
+runWithFiberInDEV@http://localhost:3000/static/js/bundle.js:25341:14
+performUnitOfWork@http://localhost:3000/static/js/bundle.js:32585:93
+workLoopSync@http://localhost:3000/static/js/bundle.js:32479:55
+renderRootSync@http://localhost:3000/static/js/bundle.js:32463:7
+performWorkOnRoot@http://localhost:3000/static/js/bundle.js:32224:42
+performWorkOnRootViaSchedulerTask@http://localhost:3000/static/js/bundle.js:33026:22
+performWorkUntilDeadline@http://localhost:3000/static/js/bundle.js:79213:54
 
 
