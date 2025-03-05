@@ -30,27 +30,30 @@ This repository is built upon concepts from renowned AI textbooks, online course
 - Various academic papers on heuristic search and optimization
 
 
-medtronic-robot@medtronic-robot-Precision-7680:~/medtronic-capstone/medtronic-website$ curl -v http://localhost:8000/cpu
-* Host localhost:8000 was resolved.
-* IPv6: ::1
-* IPv4: 127.0.0.1
-*   Trying [::1]:8000...
-* Connected to localhost (::1) port 8000
-> GET /cpu HTTP/1.1
-> Host: localhost:8000
-> User-Agent: curl/8.5.0
-> Accept: */*
-> 
-< HTTP/1.1 404 NOT FOUND
-< Server: gunicorn
-< Date: Wed, 05 Mar 2025 01:57:42 GMT
-< Connection: keep-alive
-< Content-Type: text/html; charset=utf-8
-< Content-Length: 207
-< Access-Control-Allow-Origin: *
-< 
-<!doctype html>
-<html lang=en>
-<title>404 Not Found</title>
-<h1>Not Found</h1>
+>>> print(app.url_map)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'app' is not defined
+>>> from app import app
+INFO:root:✅ GPU detected
+[ WARN:0@0.029] global cap_v4l.cpp:913 open VIDEOIO(V4L2:/dev/video0): can't open camera by index
+[ERROR:0@0.029] global obsensor_uvc_stream_channel.cpp:158 getStreamChannelGroup Camera index out of range
+[ WARN:0@0.029] global cap_v4l.cpp:913 open VIDEOIO(V4L2:/dev/video1): can't open camera by index
+[ERROR:0@0.029] global obsensor_uvc_stream_channel.cpp:158 getStreamChannelGroup Camera index out of range
+[ WARN:0@0.029] global cap_v4l.cpp:913 open VIDEOIO(V4L2:/dev/video2): can't open camera by index
+[ERROR:0@0.029] global obsensor_uvc_stream_channel.cpp:158 getStreamChannelGroup Camera index out of range
+[ WARN:0@0.029] global cap_v4l.cpp:913 open VIDEOIO(V4L2:/dev/video3): can't open camera by index
+[ERROR:0@0.030] global obsensor_uvc_stream_channel.cpp:158 getStreamChannelGroup Camera index out of range
+[ WARN:0@0.030] global cap_v4l.cpp:913 open VIDEOIO(V4L2:/dev/video4): can't open camera by index
+[ERROR:0@0.030] global obsensor_uvc_stream_channel.cpp:158 getStreamChannelGroup Camera index out of range
+ERROR:root:❌ No valid hand tracking camera found.
+INFO:root:CPU: 74.2%, Memory: 20.5%
+>>> print(app.INFO:root:CPU: 0.8%, Memory: 20.5%
+url_map)
+Map([<Rule '/static/<filename>' (HEAD, GET, OPTIONS) -> static>,
+ <Rule '/api/hand-tracking-stream' (HEAD, GET, OPTIONS) -> get_hand_tracking_stream>])
+>>> INFO:root:CPU: 1.0%, Memory: 20.4%
+
+
+
 <p>The requested URL was not found on the server. If you ente
