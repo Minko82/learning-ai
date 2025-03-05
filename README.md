@@ -29,10 +29,22 @@ This repository is built upon concepts from renowned AI textbooks, online course
 - **MIT OpenCourseWare: Introduction to AI**
 - Various academic papers on heuristic search and optimization
 
--2025-03-05 02:24:55--  https://assets.ultraleap.com/download/ultraleap-hand-tracking-2.3.0-linux.zip
-Resolving assets.ultraleap.com (assets.ultraleap.com)... failed: Name or service not known.
-wget: unable to resolve host address 'assets.ultraleap.com'
-The command '/bin/sh -c wget https://assets.ultraleap.com/download/ultraleap-hand-tracking-2.3.0-linux.zip -O ultraleap.zip &&     unzip ultraleap.zip -d /opt/ultraleap &&     rm ultraleap.zip' returned a non-zero code: 4
-ERROR: Service 'hand-tracker' failed to build : Build failed
-medtronic-robot@medtronic-robot-Precision-7680:~/medtronic-capstone/medtronic-website$ 
+
+
+
+ncaught runtime errors:
+ERROR
+handData.right_palm is undefined
+Dashboard@http://localhost:3000/static/js/bundle.js:84552:41
+react-stack-bottom-frame@http://localhost:3000/static/js/bundle.js:36796:18
+renderWithHooks@http://localhost:3000/static/js/bundle.js:28113:38
+updateFunctionComponent@http://localhost:3000/static/js/bundle.js:29382:17
+beginWork@http://localhost:3000/static/js/bundle.js:30000:16
+runWithFiberInDEV@http://localhost:3000/static/js/bundle.js:25341:14
+performUnitOfWork@http://localhost:3000/static/js/bundle.js:32585:93
+workLoopSync@http://localhost:3000/static/js/bundle.js:32479:55
+renderRootSync@http://localhost:3000/static/js/bundle.js:32463:7
+performWorkOnRoot@http://localhost:3000/static/js/bundle.js:32224:42
+performWorkOnRootViaSchedulerTask@http://localhost:3000/static/js/bundle.js:33026:22
+performWorkUntilDeadline@http://localhost:3000/static/js/bundle.js:79213:54
 
