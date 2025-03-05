@@ -30,6 +30,4 @@ This repository is built upon concepts from renowned AI textbooks, online course
 - Various academic papers on heuristic search and optimization
 
 
-wget https://assets.ultraleap.com/download/ultraleap-hand-tracking-2.3.0-linux.zip -O ultraleap.zip
-
-
+wget --spider https://assets.ultraleap.com/download/ultraleap-hand-tracking-2.3.0-linux.zip
