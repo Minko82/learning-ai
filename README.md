@@ -8,7 +8,6 @@ A structured collection of notes, explanations, and tutorials covering the **bas
 
 ---
 
-
 ## 📖 **Topics Covered**
 
 Explore various AI concepts and techniques, including:
