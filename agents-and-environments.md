@@ -39,7 +39,6 @@ Where:
 📌 **Example:**  
 - A self-driving car **(Agent)** receives a **traffic light is red (Percept)** → The function decides to **brake (Action).**
 
-
 <br>
 
 ---
