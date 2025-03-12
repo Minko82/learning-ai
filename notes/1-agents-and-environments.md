@@ -60,26 +60,29 @@
 ---
 
 ## 5️⃣ Rationality & Performance Measures
-- **Rationality** → Choosing the action that **maximizes expected success**  
+- **Rationality** → Choosing the action that **maximizes expected success**
 - **Performance Measure** → Defines **what is "good" behavior**
+    - Example: For a `chess bot`, `winning` is good, `losing` is bad.
+      
+<br>
 
-**⚠️ Can't call an agent rational if there's no performance measure ⚠️**
+---
+
+> ⚠️ **NOTE:** An agent **must** have a performance measure to be considered rational!  
+
+---
 
 <br>
 
-📌 **Example:**  
-- For a chess bot, winning is good, losing is bad.  
-- For a search engine, **relevant results** improve performance.
 
-<br>
+### 🛠 **Rationality is based on P.E.A.S.**  
+- **P** --erformance
+> **Formula:**  
+> $$\text{Agent} = \text{Performance} + \text{Environment} + \text{Actuator} + \text{Sensors}$$  
 
-**Rationality is based on PEAS:**
 
-$$
-\text{Agent} = \text{Performance} + \text{Environment} + \text{Actuator} + \text{Sensors} 
-$$
 
-📌 **Example:**  
+  - **Example:**  
 
 | Agent Type | Performance Measure | Environment | Actuators | Sensors |
 |------------|----------------------|-------------|-----------|---------|
