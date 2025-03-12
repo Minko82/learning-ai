@@ -10,7 +10,7 @@
 
 ---
 
-## 2️⃣ Percepts & Percept Sequence
+## 2️⃣ Percepts 
 - **Percept** → The input data that an agent receives from its environment.
   - Example: A self-driving car perceives `lane markings`, `traffic lights`, and `nearby vehicles`
     
@@ -18,13 +18,11 @@
 
 - **Percept Sequence** → The **history** of all percepts the agent has received.  
 
-  
-
 <br>
 
 ---
 
-## 3️⃣ What is an Agent Function?
+## 3️⃣ Agent Function
 **Agent function** → a mapping from **percept sequences** to **actions**:
 - Example:  A `self-driving car` (Agent) receives a `traffic light is red` (Percept). The function decides to `brake` (Action)
 
@@ -41,21 +39,21 @@
 
 ---
 
-## 4️⃣ What is an Agent Program?
+## 4️⃣ Agent Program
 **Agent program** → the actual **implementation** of the agent function in **code**.
 
-📌 **Example:** A thermostat can be implemented as:
+- Example: A `thermostat` can be implemented as:
 
-```python
-# Simple reflex agent for a thermostat
-def thermostat(percept):
-    if percept == "Too Hot":
-        return "Turn AC On"
-    elif percept == "Too Cold":
-        return "Turn Heater On"
-    else:
-        return "Do Nothing"
-```
+    ```python
+    # Simple reflex agent for a thermostat
+    def thermostat(percept):
+        if percept == "Too Hot":
+            return "Turn AC On"
+        elif percept == "Too Cold":
+            return "Turn Heater On"
+        else:
+            return "Do Nothing"
+    ```
 
 <br>
 
