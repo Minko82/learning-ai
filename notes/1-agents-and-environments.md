@@ -1,25 +1,24 @@
 # 📜 Intelligent Agents & Environments
 
-## 1️⃣ What is an **Agent**?
+## 1️⃣ **Agents**
 **Agent** → Any entity that **perceives its environment** and **acts upon it** to achieve a goal.
 
-💡 **Formula:**  
-
-$$
-\text{Agent} = \text{Percepts} + \text{Actions}
-$$
+>**Formula:**
+> $\text{Agent} = \text{Percepts} + \text{Actions}$
 
 <br>
 
 ---
 
 ## 2️⃣ Percepts & Percept Sequence
-- **Percept** → The input data that an agent receives from its environment.  
+- **Percept** → The input data that an agent receives from its environment.
+  - Example: A self-driving car perceives `lane markings`, `traffic lights`, and `nearby vehicles`
+    
+<br>
+
 - **Percept Sequence** → The **history** of all percepts the agent has received.  
 
-📌 **Example:**  
-- A self-driving car perceives **lane markings, traffic lights, and nearby vehicles.**  
-- A chatbot perceives **text input from users.**  
+  
 
 <br>
 
@@ -27,17 +26,16 @@ $$
 
 ## 3️⃣ What is an Agent Function?
 **Agent function** → a mapping from **percept sequences** to **actions**:
+- Example:  A `self-driving car` (Agent) receives a `traffic light is red` (Percept). The function decides to `brake` (Action)
 
-$$
- f: P^* \rightarrow A
-$$
+>**Formula:**
+> $f: P^* \rightarrow A$
+> <br>
+> <br>
+> Where:
+> - $P^*$  = All possible percept sequences
+> - $A$ = Set of all possible actions
 
-Where:
-- **\( P^* \)** = All possible percept sequences
-- **\( A \)** = Set of all possible actions
-
-📌 **Example:**  
-- A self-driving car **(Agent)** receives a **traffic light is red (Percept)** → The function decides to **brake (Action).**
 
 <br>
 
