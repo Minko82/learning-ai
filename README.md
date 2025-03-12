@@ -26,3 +26,5 @@ This repository is built upon concepts from renowned AI textbooks, online course
 
 - **MIT OpenCourseWare: Introduction to AI**
 - Various academic papers on heuristic search and optimization
+
+Taking notes
