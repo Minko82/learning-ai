@@ -14,8 +14,6 @@
 - ❌ **Not guaranteed to find the shortest path**.  
 - ❌ **Can get stuck in cycles without proper checks**.  
 
-<br>
-
 ---
 
 <br>
