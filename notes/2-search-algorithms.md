@@ -45,7 +45,7 @@ Search algorithms are categorized into two types:
     - Example algorithms:
         - **[Breadth-First Search (BFS)](https://github.com/Minko82/learning-ai/blob/main/notes/3-breadth-first-search.md)**
         - **[Depth-First Search (DFS)](https://github.com/Minko82/learning-ai/blob/main/notes/4-depth-first-search.md)**
-        - **Uniform-Cost Search (UCS)**
+        - **[Uniform-Cost Search (UCS)](https://github.com/Minko82/learning-ai/blob/main/notes/5-uniform-cost-search.md)**
 
 ### **Informed Search (Heuristic Search)**
 - Uses heuristics to estimate the cost to the goal, making search more efficient
