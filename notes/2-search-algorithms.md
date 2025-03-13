@@ -52,3 +52,19 @@ Search algorithms are categorized into two types:
     - Example algorithms:
       - **Greedy Best-First Search**
       - A* **Search**
+
+<br>
+
+### ⚡ **Comparisons**  
+
+| Algorithm | Uses Costs? | Guarantees Optimality? | Time Complexity |
+|-----------|------------|------------------------|-----------------|
+| **BFS**  | ❌ No  | ✅ Yes (for unweighted graphs) | O(b^d) |
+| **DFS**  | ❌ No  | ❌ No  | O(b^d) |
+| **UCS**  | ✅ Yes | ✅ Yes | O((b^d)) |
+| **A\***  | ✅ Yes | ✅ Yes (with an admissible heuristic) | O((b^d)) |
+
+> 🔎 Note:
+> - **\( b \) = Branching Factor** → The average number of child nodes each node has.  
+> - **\( d \) = Depth** → The shortest distance from the root (starting node) to the goal node.  
+
