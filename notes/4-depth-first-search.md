@@ -6,13 +6,9 @@
 - **DFS explores as far as possible along a branch before backtracking**.  
 - Uses a **LIFO (Last In, First Out) stack** for traversal.  
 
-<br>
-
----
-
-<br>
-
-## 🎯 **Key Properties**  
+ <br>
+ 
+ **Key Properties** 
 - ✔ **Efficient for exploring deep graphs**.  
 - ✔ **Uses less memory than BFS for dense graphs**.  
 - ❌ **Not guaranteed to find the shortest path**.  
@@ -22,27 +18,6 @@
 
 ---
 
-<br>
-
-## ⚡ **BFS vs. DFS Comparison**  
-
-| Feature | 🏁 **BFS** | 🔍 **DFS** |
-|---------|-----------|-----------|
-| **Data Structure** | Queue (FIFO) | Stack (LIFO) |
-| **Best for** | Finding the shortest path in an unweighted graph | Deep traversal of a graph |
-| **Time Complexity** | \(O(V + E)\) | \(O(V + E)\) |
-| **Space Complexity** | \(O(V)\) | \(O(V)\) (recursive depth) |
-| **Completeness** | ✅ Yes (always finds a solution if one exists) | ❌ No (may get stuck in infinite loops without cycle detection) |
-| **Optimality** | ✅ Yes (if costs are uniform) | ❌ No |
-
-> **🔍 Note:**  
-> - **\(V\)** = Number of vertices (nodes) in the graph  
-> - **\(E\)** = Number of edges (connections between nodes)  
-> - DFS runs in **\(O(V + E)\)** because it visits each node **once** (\(O(V)\)) and traverses each edge **once** (\(O(E)\)).  
-
-<br>
-
----
 <br>
 
 ## 🛠 **How DFS Works**  
@@ -80,4 +55,26 @@ A → B → D → E → C → F
 
 > **📌 Why \(O(V + E)\)?**  
 > - DFS **visits each node once** → \(O(V)\)  
-> - DFS **traverses each edge once** → \(O(E)\)  
+> - DFS **traverses each edge once** → \(O(E)\)
+
+ <br>
+
+ ---
+
+ <br>
+
+## ⚡ **BFS vs. DFS Comparison**  
+
+| Feature | 🏁 **BFS** | 🔍 **DFS** |
+|---------|-----------|-----------|
+| **Data Structure** | Queue (FIFO) | Stack (LIFO) |
+| **Best for** | Finding the shortest path in an unweighted graph | Deep traversal of a graph |
+| **Time Complexity** | \(O(V + E)\) | \(O(V + E)\) |
+| **Space Complexity** | \(O(V)\) | \(O(V)\) (recursive depth) |
+| **Completeness** | ✅ Yes (always finds a solution if one exists) | ❌ No (may get stuck in infinite loops without cycle detection) |
+| **Optimality** | ✅ Yes (if costs are uniform) | ❌ No |
+
+> **🔍 Note:**  
+> - **\(V\)** = Number of vertices (nodes) in the graph  
+> - **\(E\)** = Number of edges (connections between nodes)  
+> - DFS runs in **\(O(V + E)\)** because it visits each node **once** (\(O(V)\)) and traverses each edge **once** (\(O(E)\)).  
