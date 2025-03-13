@@ -1,5 +1,7 @@
 # 🌟 Uniform Cost Search (UCS)  
 
+<br>
+
 ## 🔍 **What is UCS?**  
 - Graph traversal algorithm that finds the **least-cost path**. 
     - Unlike BFS, which prioritizes depth, UCS expands the **least costly** node first, making it optimal for weighted graphs.  
@@ -7,6 +9,7 @@
 <br>
 
 ---
+<br>
 
 ## ⚖ **Key Properties**  
 - ✅ **Complete** → Always finds a solution if one exists.  
@@ -17,6 +20,7 @@
 <br>
 
 ---
+<br>
 
 ## 🛠 **How UCS Works**  
 1. Start at the **initial node** and add it to a priority queue with cost = 0.  
@@ -46,6 +50,8 @@ B --2-- C
 
 ---
 
+<br>
+
 ## ⚡ **Comparison with Other Algorithms**  
 
 | Algorithm | Uses Costs? | Guarantees Optimality? | Time Complexity |
@@ -58,6 +64,8 @@ B --2-- C
 <br>
 
 ---
+
+<br>
 
 ## 🔢 **Algorithm (Pseudocode)**  
 ```python
