@@ -51,7 +51,7 @@ Search algorithms are categorized into two types:
 - Uses heuristics to estimate the cost to the goal, making search more efficient
     - Example algorithms:
       - **[Greedy Best-First Search](https://github.com/Minko82/learning-ai/blob/main/notes/6-greedy-best-first-search.md)**
-      - A* **Search**
+      - **[A* Search](https://github.com/Minko82/learning-ai/blob/main/notes/7-A*-search.md)**
 
 <br>
 
