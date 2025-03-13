@@ -156,7 +156,7 @@
 
 <br>
 
-### **Static vs. Dynamic**
+**Static vs. Dynamic**
 | Property | Meaning | Example |
 |------------|------------------------------------------------|-----------------------------|
 | **Static** | The environment doesn’t change while deciding | Sudoku |
