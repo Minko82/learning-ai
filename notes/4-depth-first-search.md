@@ -1,4 +1,4 @@
-# Depth-First Search (DFS) 🔍
+# 🔍 Depth-First Search (DFS) 
 
 ## **Overview**
 - **DFS explores as far as possible along a branch before backtracking**
@@ -10,7 +10,7 @@
 
 ## Algorithms
 
-#### **Iterative Version**
+### **Iterative Version**
 ```python
 def dfs_iterative(graph, start):
     stack = [start]
@@ -25,7 +25,7 @@ def dfs_iterative(graph, start):
                     stack.append(neighbor)
 ```
 
-#### **Recursive Version**
+### **Recursive Version**
 ```python
 def dfs_recursive(graph, s, visited=set()):
     print(s, end=' ')
@@ -35,7 +35,7 @@ def dfs_recursive(graph, s, visited=set()):
             dfs_recursive(graph, neighbor, visited)
 ```
 
-#### **Time & Space Complexity**
+### **Time & Space Complexity**
 - **Time Complexity:** \(O(V + E)\)  
 - **Space Complexity:**
   - **Recursive:** \(O(V)\) (due to recursion stack)
