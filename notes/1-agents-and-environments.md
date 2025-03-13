@@ -76,7 +76,11 @@
 
 
 ### 🛠 **Rationality is based on P.E.A.S.**  
-- **P** --erformance
+- **P**:Performance
+- **E**:Environment
+- **A**:Actuator
+- **S**:Sensor
+  
 > **Formula:**  
 > $$\text{Agent} = \text{Performance} + \text{Environment} + \text{Actuator} + \text{Sensors}$$  
 
@@ -95,15 +99,15 @@
 ---
 
 ## 6️⃣ Task Environments
-**Task environment** → the "problems" that rational agents are the "solution"
+- **Task environment** → the "problems" that rational agents are the "solution"
 
-**Environment** → **everything an agent interacts with**.
+- **Environment** → **everything an agent interacts with**.
 
 <br>
 
-📌 **Properties of Environments:**
+### **Properties of Environments:**
 
-### **Observability**
+**Observability**
 | Property | Meaning |
 |------------|------------------------------------------------|
 | **Fully Observable** | Agent has complete knowledge of the world |
@@ -112,7 +116,7 @@
 
 <br>
 
-### **Determinism vs. Stochasticity**
+**Determinism vs. Stochasticity**
 | Property | Meaning | Example |
 |------------|------------------------------------------------|-----------------------------|
 | **Deterministic** | Next state is fully determined by actions | Calculator |
@@ -120,7 +124,7 @@
 
 <br>
 
-### **Discrete vs. Continuous**
+**Discrete vs. Continuous**
 | Property | Meaning |
 |------------|------------------------------------------------|
 | **Discrete** | The agent has finitely many distinct actions |
@@ -128,7 +132,7 @@
 
 <br>
 
-### **Benign vs. Adversarial**
+**Benign vs. Adversarial**
 | Property | Meaning |
 |------------|------------------------------------------------|
 | **Benign** | There is no opposing agent working against the system |
@@ -136,7 +140,7 @@
 
 <br>
 
-### **Single Agent vs. Multi-Agent**
+**Single Agent vs. Multi-Agent**
 | Property | Meaning |
 |------------|------------------------------------------------|
 | **Single Agent** | Only one agent is operating in the environment |
@@ -144,7 +148,7 @@
 
 <br>
 
-### **Episodic vs. Sequential**
+**Episodic vs. Sequential**
 | Property | Meaning | Example |
 |------------|------------------------------------------------|-----------------------------|
 | **Episodic** | Decisions don’t affect future percepts | Image classification |
