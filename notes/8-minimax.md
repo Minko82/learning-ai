@@ -30,7 +30,7 @@
 
 <br>
 
-**Example Minimax Tree:**  
+**Example:**  
 
 ```css
          (Max)
