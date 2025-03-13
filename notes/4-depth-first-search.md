@@ -44,29 +44,6 @@ A → B → D → E → C → F
 
 ---
 
-<br>
-
-## ⏳ **Time & Space Complexity**  
-
-| Complexity | Iterative DFS | Recursive DFS |
-|------------|--------------|--------------|
-| **Time Complexity** | \(O(V + E)\) | \(O(V + E)\) |
-| **Space Complexity** | \(O(V)\) (explicit stack) | \(O(V)\) (recursion depth) |
-
-_**\(V\)** = Number of vertices (nodes) in the graph_
-
-_**\(E\)** = Number of edges (connections between nodes)_
-
-<br>
-
-> **📌 Why \(O(V + E)\)?**  
-> - DFS **visits each node once** → \(O(V)\)  
-> - DFS **traverses each edge once** → \(O(E)\)
-
- <br>
-
- ---
-
  <br>
 
 ## ⚡ **BFS vs. DFS Comparison**  
