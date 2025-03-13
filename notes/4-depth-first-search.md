@@ -28,7 +28,7 @@
 
 <br>
 
-### **Example Graph**  
+**Example Graph**  
 
 ```css
     A
