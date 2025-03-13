@@ -7,6 +7,12 @@
 
 <br>
 
+**Key Properties**  
+- ✅ **Complete** → Always finds a solution if one exists.  
+- ✅ **Optimal** → Always finds the shortest path in an **unweighted** graph.  
+- ❌ **Memory-intensive** → Stores many nodes in the queue at once.  
+- ❌ **Not ideal for deep graphs** → Can be slow when the goal is far from the root.  
+
 ---
 > #### 📌 **NOTE**
 > **Why is BFS an optimal algorithm?**
@@ -49,12 +55,18 @@ A → B → C → D → E → F
 <br>
 
 ## ⏳ **Time & Space Complexity**  
-
+  
 | Complexity | BFS |
 |------------|----|
 | **Time Complexity** | \(O(V + E)\) |
 | **Space Complexity** | \(O(V)\) (queue & visited set) |
 
-> **📌 Why \(O(V + E)\)?**  
+_**\(V\)** = Number of vertices (nodes) in the graph_
+
+_**\(E\)** = Number of edges (connections between nodes)_
+
+<br>
+
+> **📌 Why \(O(V + E)\)?**
 > - BFS **visits each node once** → \(O(V)\)  
 > - BFS **traverses each edge once** → \(O(E)\)  
