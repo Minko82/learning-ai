@@ -2,16 +2,13 @@
 
 <br>
 
-## 🔍 **What is UCS?**  
+## 🔍 **Overview**  
 - Graph traversal algorithm that finds the **least-cost path**. 
     - Unlike BFS, which prioritizes depth, UCS expands the **least costly** node first, making it optimal for weighted graphs.  
 
 <br>
 
----
-<br>
-
-## ⚖ **Key Properties**  
+**Key Properties**  
 - ✅ **Complete** → Always finds a solution if one exists.  
 - ✅ **Optimal** → Always finds the least-cost path.  
 - ❌ **Expensive** → Can be slow if costs are high.  
@@ -32,7 +29,6 @@
 <br>
 
 **Example:**  
-Consider a graph where edges have different costs:  
 
 ```css
     A
