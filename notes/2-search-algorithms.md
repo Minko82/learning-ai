@@ -50,7 +50,7 @@ Search algorithms are categorized into two types:
 ### **Informed Search (Heuristic Search)**
 - Uses heuristics to estimate the cost to the goal, making search more efficient
     - Example algorithms:
-      - **Greedy Best-First Search**
+      - **[Greedy Best-First Search](https://github.com/Minko82/learning-ai/blob/main/notes/6-greedy-best-first-search.md)**
       - A* **Search**
 
 <br>
