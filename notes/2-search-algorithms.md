@@ -42,19 +42,17 @@ Search algorithms are categorized into two types:
 
 ### **Uninformed Search (Blind Search)**
 - No additional information about the goal except how to determine if a state is a goal
-  
-  📌 Example algorithms:
-  - **Breadth-First Search (BFS)**
-  - **Depth-First Search (DFS)**
-  - **Uniform-Cost Search (UCS)**
+- Example algorithms:
+    - **Breadth-First Search (BFS)**
+    - **Depth-First Search (DFS)**
+    - **Uniform-Cost Search (UCS)**
 
 ### **Informed Search (Heuristic Search)**
 - Uses heuristics to estimate the cost to the goal, making search more efficient
   
-  📌 Example algorithms:
+- Example algorithms:
   - **Greedy Best-First Search**
   - A* **Search**
-  - **Hill Climbing**
 
 <br>
 
