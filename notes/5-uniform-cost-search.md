@@ -60,34 +60,3 @@ B --2-- C
 | **DFS**  | ❌ No  | ❌ No  | O(b^d) |
 | **UCS**  | ✅ Yes | ✅ Yes | O((b^d)) |
 | **A\***  | ✅ Yes | ✅ Yes (with an admissible heuristic) | O((b^d)) |
-
-<br>
-
----
-
-<br>
-
-## 🔢 **Algorithm (Pseudocode)**  
-```python
-def uniform_cost_search(graph, start, goal):
-    priority_queue = [(0, start, [])]  # (Cost, Node, Path)
-    visited = set()
-
-    while priority_queue:
-        cost, node, path = heapq.heappop(priority_queue)  # Pop lowest-cost node
-        
-        if node in visited:
-            continue
-        
-        visited.add(node)
-        path = path + [node]
-        
-        if node == goal:
-            return path, cost  # Return optimal path and cost
-        
-        for neighbor, step_cost in graph[node]:
-            if neighbor not in visited:
-                heapq.heappush(priority_queue, (cost + step_cost, neighbor, path))
-    
-    return None  # No path found
-```
