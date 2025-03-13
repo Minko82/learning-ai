@@ -57,14 +57,14 @@ Search algorithms are categorized into two types:
 
 ### ⚡ **Comparisons**  
 
-| Algorithm | Uses Costs? | Guarantees Optimality? | Time Complexity |
-|-----------|------------|------------------------|-----------------|
-| **BFS**  | ❌ No  | ✅ Yes (for unweighted graphs) | O(b^d) |
-| **DFS**  | ❌ No  | ❌ No  | O(b^d) |
-| **UCS**  | ✅ Yes | ✅ Yes | O((b^d)) |
-| **A\***  | ✅ Yes | ✅ Yes (with an admissible heuristic) | O((b^d)) |
+| Algorithm | Uses Costs? | Uses Heuristic? | Guarantees Optimality? | Time Complexity |
+|-----------|------------|----------------|------------------------|-----------------|
+| **BFS**  | ❌ No  | ❌ No  | ✅ Yes (for unweighted graphs) | \(O(b^d)\) |
+| **DFS**  | ❌ No  | ❌ No  | ❌ No  | \(O(b^d)\) |
+| **UCS**  | ✅ Yes | ❌ No  | ✅ Yes | \(O(b^d)\) |
+| **A\***  | ✅ Yes | ✅ Yes | ✅ Yes (with an admissible heuristic) | \(O(b^d)\) |
+| **GBFS** | ❌ No  | ✅ Yes | ❌ No | \(O(b^d)\) (can be faster but may get stuck) |
 
-> 🔎 Note:
+> 🔎 **Notes**:  
 > - **\( b \) = Branching Factor** → The average number of child nodes each node has.  
 > - **\( d \) = Depth** → The shortest distance from the root (starting node) to the goal node.  
-
