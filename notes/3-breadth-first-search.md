@@ -1,6 +1,6 @@
 # 🔍 Breadth-First Search (BFS) 
 
-## **Overview**
+## 🔎 **Overview**
 - **BFS explores all nodes at the present row/depth level before moving on to nodes at the next row**
 - It guarantees the **shortest path** in an **unweighted** graph
 - Uses a **FIFO (First In, First Out) queue**
