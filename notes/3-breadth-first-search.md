@@ -15,12 +15,12 @@
 - ❌ **Memory-intensive** → Stores many nodes in the queue at once.  
 - ❌ **Not ideal for deep graphs** → Can be slow when the goal is far from the root.  
 
----
-> #### 📌 **NOTE**
+<br>
+
+> 🔎 **Note:**
 > **Why is BFS an optimal algorithm?**
 > <br>
 > It visits all possible nodes that are one hop from the source, then checks all that are 2 hop, etc. until it reaches the destination 
----
 
 <br>
 
