@@ -79,8 +79,3 @@ _**\(E\)** = Number of edges (connections between nodes)_
 | **Space Complexity** | \(O(V)\) | \(O(V)\) (recursive depth) |
 | **Completeness** | ✅ Yes (always finds a solution if one exists) | ❌ No (may get stuck in infinite loops without cycle detection) |
 | **Optimality** | ✅ Yes (if costs are uniform) | ❌ No |
-
-> **🔍 Note:**  
-> - **\(V\)** = Number of vertices (nodes) in the graph  
-> - **\(E\)** = Number of edges (connections between nodes)  
-> - DFS runs in **\(O(V + E)\)** because it visits each node **once** (\(O(V)\)) and traverses each edge **once** (\(O(E)\)).  
