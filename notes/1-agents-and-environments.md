@@ -68,9 +68,12 @@
 
 ---
 
-> ⚠️ **NOTE:** An agent **must** have a performance measure to be considered rational!  
+> ### 📌 **NOTE**
+>  An agent **must** have a performance measure to be considered rational!  
 
 ---
+
+
 
 <br>
 
