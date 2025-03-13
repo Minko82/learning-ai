@@ -1,6 +1,6 @@
 # 🚀 Search Algorithms 
 
-## 1️⃣ Introduction to Search Problems
+## Introduction to Search Problems
 - **Search algorithms** →  Used when an agent needs to find a sequence of actions that **leads to a goal**
   - These algorithms help **navigate problem spaces** efficiently
     
@@ -12,7 +12,7 @@
 
 ---
 
-## 2️⃣ Components of a Search Problem
+## Components of a Search Problem
 1. **Initial State** → The starting point of the agent.
 2. **Actions** → All possible actions the agent can take.
 3. **Transition Model** → A description of how each action changes the state.
@@ -23,7 +23,7 @@
 
 ---
 
-## 3️⃣ Time & Space Complexity ⏳💾
+## Time & Space Complexity ⏳💾
 **Time Complexity**  → Measures how the **running time of an algorithm** increases as the input size grows
 - A loop running through **n** elements has **O(n) time complexity**
   
@@ -37,7 +37,7 @@
 
 ---
 
-## 4️⃣ Types of Search Algorithms
+## Types of Search Algorithms
 Search algorithms are categorized into two types:
 
 ### **Uninformed Search (Blind Search)**
@@ -53,7 +53,3 @@ Search algorithms are categorized into two types:
 - Example algorithms:
   - **Greedy Best-First Search**
   - A* **Search**
-
-<br>
-
-_BFS and DFS are covered in the next page_
