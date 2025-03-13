@@ -42,14 +42,13 @@ Search algorithms are categorized into two types:
 
 ### **Uninformed Search (Blind Search)**
 - No additional information about the goal except how to determine if a state is a goal
-- Example algorithms:
-    - **[Breadth-First Search (BFS)](https://github.com/Minko82/learning-ai/blob/main/notes/3-breadth-first-search.md)**
-    - **Depth-First Search (DFS)**
-    - **Uniform-Cost Search (UCS)**
+    - Example algorithms:
+        - **[Breadth-First Search (BFS)](https://github.com/Minko82/learning-ai/blob/main/notes/3-breadth-first-search.md)**
+        - **[Depth-First Search (DFS)](https://github.com/Minko82/learning-ai/blob/main/notes/4-depth-first-search.md)**
+        - **Uniform-Cost Search (UCS)**
 
 ### **Informed Search (Heuristic Search)**
 - Uses heuristics to estimate the cost to the goal, making search more efficient
-  
-- Example algorithms:
-  - **Greedy Best-First Search**
-  - A* **Search**
+    - Example algorithms:
+      - **Greedy Best-First Search**
+      - A* **Search**
