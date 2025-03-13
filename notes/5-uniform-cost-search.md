@@ -41,18 +41,3 @@ B --2-- C
 **Goal:** Run UCS from A to C
 <br>
 **UCS Path:** A → B → C 
-
-<br>
-
----
-
-<br>
-
-## ⚡ **Comparison with Other Algorithms**  
-
-| Algorithm | Uses Costs? | Guarantees Optimality? | Time Complexity |
-|-----------|------------|------------------------|-----------------|
-| **BFS**  | ❌ No  | ✅ Yes (for unweighted graphs) | O(b^d) |
-| **DFS**  | ❌ No  | ❌ No  | O(b^d) |
-| **UCS**  | ✅ Yes | ✅ Yes | O((b^d)) |
-| **A\***  | ✅ Yes | ✅ Yes (with an admissible heuristic) | O((b^d)) |
