@@ -8,8 +8,8 @@
 <br>
 
 **Key Properties**  
-- ✅ **Complete** → Always finds a solution if one exists.  
-- ✅ **Optimal** → Always finds the shortest path in an **unweighted** graph.  
+- ✔ **Complete** → Always finds a solution if one exists.  
+- ✔ **Optimal** → Always finds the shortest path in an **unweighted** graph.  
 - ❌ **Memory-intensive** → Stores many nodes in the queue at once.  
 - ❌ **Not ideal for deep graphs** → Can be slow when the goal is far from the root.  
 
