@@ -1,8 +1,18 @@
 # 🌟 Uniform Cost Search (UCS)  
 
 ## 🔍 **What is UCS?**  
-- Uniform Cost Search (UCS) is a **graph traversal algorithm** that finds the least-cost path from a start node to a goal node. 
-- Unlike BFS, which prioritizes depth, UCS expands the **least costly** node first, making it optimal for weighted graphs.  
+- Graph traversal algorithm that finds the **least-cost path**. 
+    - Unlike BFS, which prioritizes depth, UCS expands the **least costly** node first, making it optimal for weighted graphs.  
+
+<br>
+
+---
+
+## ⚖ **Key Properties**  
+- ✅ **Complete** → Always finds a solution if one exists.  
+- ✅ **Optimal** → Always finds the least-cost path.  
+- ❌ **Expensive** → Can be slow if costs are high.  
+- ❌ **Memory-intensive** → Stores many nodes in the queue.  
 
 <br>
 
@@ -17,13 +27,33 @@
 
 <br>
 
+**Example:**  
+Consider a graph where edges have different costs:  
+
+```css
+    A
+   / \
+  1   4
+ /     \
+B --2-- C
+
+```
+**Goal:** Run UCS from A to C
+<br>
+**UCS Path:** A → B → C 
+
+<br>
+
 ---
 
-## ⚖ **Key Properties**  
-- ✅ **Complete** → Always finds a solution if one exists.  
-- ✅ **Optimal** → Always finds the least-cost path.  
-- ❌ **Expensive** → Can be slow if costs are high.  
-- ❌ **Memory-intensive** → Stores many nodes in the queue.  
+## ⚡ **Comparison with Other Algorithms**  
+
+| Algorithm | Uses Costs? | Guarantees Optimality? | Time Complexity |
+|-----------|------------|------------------------|-----------------|
+| **BFS**  | ❌ No  | ✅ Yes (for unweighted graphs) | O(b^d) |
+| **DFS**  | ❌ No  | ❌ No  | O(b^d) |
+| **UCS**  | ✅ Yes | ✅ Yes | O((b^d)) |
+| **A\***  | ✅ Yes | ✅ Yes (with an admissible heuristic) | O((b^d)) |
 
 <br>
 
@@ -52,3 +82,4 @@ def uniform_cost_search(graph, start, goal):
                 heapq.heappush(priority_queue, (cost + step_cost, neighbor, path))
     
     return None  # No path found
+```
