@@ -8,6 +8,21 @@
 
 ---
 
+## BFS vs. DFS Comparison 
+
+| Feature | BFS | DFS |
+|---------|----|----|
+| **Data Structure** | Queue (FIFO) | Stack (LIFO) |
+| **Best for** | Finding the shortest path in an unweighted graph | Deep traversal of a graph |
+| **Time Complexity** | \(O(V + E)\) | \(O(V + E)\) |
+| **Space Complexity** | \(O(V)\) | \(O(V)\) (recursive depth) |
+| **Completeness** | ✅ Yes (always finds solution if one exists) | ❌ No (may get stuck in infinite loops if cycles exist without detection) |
+| **Optimality** | ✅ Yes (if costs are uniform) | ❌ No |
+
+<br>
+
+---
+
 ## Algorithms
 
 ### **Iterative Version**
@@ -40,19 +55,3 @@ def dfs_recursive(graph, s, visited=set()):
 - **Space Complexity:**
   - **Recursive:** \(O(V)\) (due to recursion stack)
   - **Iterative:** \(O(V)\) (due to explicit stack)
-    
-<br>
-
----
-
-## BFS vs. DFS Comparison 
-
-| Feature | BFS | DFS |
-|---------|----|----|
-| **Data Structure** | Queue (FIFO) | Stack (LIFO) |
-| **Best for** | Finding the shortest path in an unweighted graph | Deep traversal of a graph |
-| **Time Complexity** | \(O(V + E)\) | \(O(V + E)\) |
-| **Space Complexity** | \(O(V)\) | \(O(V)\) (recursive depth) |
-| **Completeness** | ✅ Yes (always finds solution if one exists) | ❌ No (may get stuck in infinite loops if cycles exist without detection) |
-| **Optimality** | ✅ Yes (if costs are uniform) | ❌ No |
-
