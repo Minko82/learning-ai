@@ -1,6 +1,6 @@
 # 📜 Intelligent Agents & Environments
 
-## 1️⃣ **Agents**
+## **Agents**
 **Agent** → Any entity that **perceives its environment** and **acts upon it** to achieve a goal.
 
 >**Formula:**
@@ -10,7 +10,7 @@
 
 ---
 
-## 2️⃣ Percepts 
+## Percepts 
 - **Percept** → The input data that an agent receives from its environment.
   - Example: A self-driving car perceives `lane markings`, `traffic lights`, and `nearby vehicles`
     
@@ -22,7 +22,7 @@
 
 ---
 
-## 3️⃣ Agent Function
+## Agent Function
 **Agent function** → a mapping from **percept sequences** to **actions**:
 - Example:  A `self-driving car` (Agent) receives a `traffic light is red` (Percept). The function decides to `brake` (Action)
 
@@ -39,7 +39,7 @@
 
 ---
 
-## 4️⃣ Agent Program
+## Agent Program
 **Agent program** → the actual **implementation** of the agent function in **code**.
 
 - Example: A `thermostat` can be implemented as:
@@ -59,7 +59,7 @@
 
 ---
 
-## 5️⃣ Rationality & Performance Measures
+## Rationality & Performance Measures
 - **Rationality** → Choosing the action that **maximizes expected success**
 - **Performance Measure** → Defines **what is "good" behavior**
     - Example: For a `chess bot`, `winning` is good, `losing` is bad.
@@ -101,7 +101,7 @@
 
 ---
 
-## 6️⃣ Task Environments
+## Task Environments
 - **Task environment** → the "problems" that rational agents are the "solution"
 
 - **Environment** → **everything an agent interacts with**.
