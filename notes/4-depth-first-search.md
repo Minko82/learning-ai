@@ -9,8 +9,8 @@
  <br>
  
  **Key Properties** 
-- ✔ **Efficient for exploring deep graphs**.  
-- ✔ **Uses less memory than BFS for dense graphs**.  
+- ✅ **Efficient for exploring deep graphs**.  
+- ✅ **Uses less memory than BFS for dense graphs**.  
 - ❌ **Not guaranteed to find the shortest path**.  
 - ❌ **Can get stuck in cycles without proper checks**.  
 
