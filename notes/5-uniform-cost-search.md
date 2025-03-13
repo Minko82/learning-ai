@@ -14,8 +14,6 @@
 - ❌ **Expensive** → Can be slow if costs are high.  
 - ❌ **Memory-intensive** → Stores many nodes in the queue.  
 
-<br>
-
 ---
 <br>
 
