@@ -49,24 +49,3 @@ BFS Traversal (Starting from A):
 A → B → C → D → E → F
 
 <br>
-
----
-
-<br>
-
-## ⏳ **Time & Space Complexity**  
-  
-| Complexity | BFS |
-|------------|----|
-| **Time Complexity** | \(O(V + E)\) |
-| **Space Complexity** | \(O(V)\) (queue & visited set) |
-
-_**\(V\)** = Number of vertices (nodes) in the graph_
-
-_**\(E\)** = Number of edges (connections between nodes)_
-
-<br>
-
-> **📌 Why \(O(V + E)\)?**
-> - BFS **visits each node once** → \(O(V)\)  
-> - BFS **traverses each edge once** → \(O(E)\)  
