@@ -22,9 +22,4 @@ Explore various AI concepts and techniques, including:
 
 ---
 
-This repository is built upon concepts from renowned AI textbooks, online courses, and research papers, including:
-
-- **MIT OpenCourseWare: Introduction to AI**
-- Various academic papers on heuristic search and optimization
-
-Taking notes
+This repository is built upon concepts from renowned AI textbooks, online courses, and research papers
