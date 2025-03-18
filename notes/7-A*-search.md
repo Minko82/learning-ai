@@ -9,8 +9,6 @@
   - **\( h(n) \)** → The estimated cost from \( n \) to the goal (heuristic).  
 - More efficient than **UCS** and more reliable than **GBFS**, as it guarantees an optimal path if the heuristic is admissible.  
 
-<br>
-
 > ### **Formula:**
 > $f(n) = g(n) + h(n)$
 
