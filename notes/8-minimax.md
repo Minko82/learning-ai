@@ -67,4 +67,3 @@
 - `Max` now picks the highest number left: max(3, 2) → `3`  
 
 **Final Minimax Decision: `3`**  
-
