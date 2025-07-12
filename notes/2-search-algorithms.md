@@ -1,6 +1,6 @@
 # 🚀 Search Algorithms 
 
-## 1️⃣ Introduction to Search Problems
+## Introduction to Search Problems
 - **Search algorithms** →  Used when an agent needs to find a sequence of actions that **leads to a goal**
   - These algorithms help **navigate problem spaces** efficiently
     
@@ -12,7 +12,7 @@
 
 ---
 
-## 2️⃣ Components of a Search Problem
+## Components of a Search Problem
 1. **Initial State** → The starting point of the agent.
 2. **Actions** → All possible actions the agent can take.
 3. **Transition Model** → A description of how each action changes the state.
@@ -23,7 +23,7 @@
 
 ---
 
-## 3️⃣ Time & Space Complexity ⏳💾
+## Time & Space Complexity ⏳💾
 **Time Complexity**  → Measures how the **running time of an algorithm** increases as the input size grows
 - A loop running through **n** elements has **O(n) time complexity**
   
@@ -37,23 +37,44 @@
 
 ---
 
-## 4️⃣ Types of Search Algorithms
-Search algorithms are categorized into two types:
+## Types of Search Algorithms  
+Search algorithms are categorized into three types:  
 
-### **Uninformed Search (Blind Search)**
-- No additional information about the goal except how to determine if a state is a goal
-- Example algorithms:
-    - **Breadth-First Search (BFS)**
-    - **Depth-First Search (DFS)**
-    - **Uniform-Cost Search (UCS)**
+### **Uninformed Search (Blind Search)**  
+- No additional information about the goal except how to determine if a state is a goal.  
+    - Example algorithms:  
+        - **[Breadth-First Search (BFS)](https://github.com/Minko82/learning-ai/blob/main/notes/3-breadth-first-search.md)**  
+        - **[Depth-First Search (DFS)](https://github.com/Minko82/learning-ai/blob/main/notes/4-depth-first-search.md)**  
+        - **[Uniform-Cost Search (UCS)](https://github.com/Minko82/learning-ai/blob/main/notes/5-uniform-cost-search.md)**  
 
-### **Informed Search (Heuristic Search)**
-- Uses heuristics to estimate the cost to the goal, making search more efficient
-  
-- Example algorithms:
-  - **Greedy Best-First Search**
-  - A* **Search**
+### **Informed Search (Heuristic Search)**  
+- Uses heuristics to estimate the cost to the goal, making search more efficient.  
+    - Example algorithms:  
+        - **[Greedy Best-First Search](https://github.com/Minko82/learning-ai/blob/main/notes/6-greedy-best-first-search.md)**  
+        - **[A* Search](https://github.com/Minko82/learning-ai/blob/main/notes/7-A*-search.md)**  
 
+### **Adversarial Search**  
+- Used in **competitive environments** where two agents **compete** (e.g., games).  
+- Instead of finding a single best path, these algorithms determine **optimal moves** against an opponent.  
+    - Example algorithms:  
+        - **[Minimax](https://github.com/Minko82/learning-ai/blob/main/notes/8-minimax.md)**  
+        - **Alpha-Beta Pruning**  
+
+---
 <br>
 
-_BFS and DFS are covered in the next page_
+### ⚡ **Comparisons**  
+
+| Algorithm | Uses Costs? | Uses Heuristic? | Competitive (Adversarial)? | Guarantees Optimality? | Time Complexity |
+|-----------|------------|----------------|----------------------------|------------------------|-----------------|
+| **BFS**  | ❌ No  | ❌ No  | ❌ No  | ✅ Yes (for unweighted graphs) | \(O(b^d)\) |
+| **DFS**  | ❌ No  | ❌ No  | ❌ No  | ❌ No  | \(O(b^d)\) |
+| **UCS**  | ✅ Yes | ❌ No  | ❌ No  | ✅ Yes | \(O(b^d)\) |
+| **A\***  | ✅ Yes | ✅ Yes | ❌ No  | ✅ Yes (with an admissible heuristic) | \(O(b^d)\) |
+| **GBFS** | ❌ No  | ✅ Yes | ❌ No  | ❌ No | \(O(b^d)\) (can be faster but may get stuck) |
+| **Minimax** | ❌ No | ❌ No | ✅ Yes | ✅ Yes (if the opponent plays optimally) | \(O(b^d)\) |
+| **Alpha-Beta Pruning** | ❌ No | ❌ No | ✅ Yes | ✅ Yes (pruning optimizes Minimax) | \(O(b^{d/2})\) (best case) |
+
+> 🔎 **Notes**:  
+> - **\( b \) = Branching Factor** → The average number of child nodes each node has.  
+> - **\( d \) = Depth** → The shortest distance from the root (starting node) to the goal node.    
